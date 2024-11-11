@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: simple-camel-kafka-1
+
+camel:
+  component:
+    kafka:
+      brokers: localhost:9092
+
+logging:
+  level:
+    org.apache.kafka.clients: info
